@@ -1,11 +1,14 @@
-import { Usuario } from "../model/Usuario";
+import { Usuario } from "../modelos/Usuario";
 
-export const LISTA_ROTAS = [{
-    prefixo: '/usuarios',
+export const LISTA_ROTAS = [
+  {
+    prefixo: "/servicos",
     model: Usuario,
-    tabela: 'usuarios'
-}, {
-    prefixo: '/servicos',
+    tabela: "usuarios",
+  },
+  {
+    prefixo: "/servicos",
     model: Usuario,
-    tabela: 'usuarios'
-}]
+    tabela: "usuarios",
+  },
+];
